@@ -21,6 +21,9 @@
 <!-- jQUERY -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
+<!-- Script to make the phone navigation work --> 
+	<script src='js/hideMenu.js'></script>
+
 
 <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -42,8 +45,9 @@
 
 <div id='navWrapper' >
 <nav>
-	<ul class='clearfix'>
-		<li><a href='index.html'>HOME</a></li>
+<button id='showPhoneNav'> Show Navigation </button>
+	<ul id='myNav' class='clearfix'>
+		<li class='active'><a href='index.html'>HOME</a></li>
 		<li><a href='projects.html'>PROJECTS</a></li>
 		<li><a href='hobbies.html'>HOBBIES</a></li>
 		<li><a href='contact.html'>CONTACT</a></li>
